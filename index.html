@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Portafolio de Lorraine M., Diseñadora, Programadora Web y Fotógrafa.">
+        <meta name="keywords" content="diseño, programación web, fotografía, branding, desarrollo web">
+        <title>Portfolio - Lorraine M.</title>
+        <link rel="icon" href="assets/circulodecolor.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container" flex>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Hola, soy Lorraine</h1>
+    <p>Diseñadora - Programadora Web - Fotógrafa</p>
+     <a href="https://www.behance.net/lorenaacosta3" target="_blank">
+        <button>Explora mi trabajo</button>
+    </a>
+</div>
+
+<section id="sobre-mi" class="container mt-5">
+    <h2 class="text-center">Sobre Mí</h2>
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <p>Soy una apasionada del diseño enfocada en crear soluciones visuales impactantes y funcionales. Me encanta desarrollar mi creatividad en función de la estética, la armonía y el atractivo. Mi trayectoria abarca una amplia gama de disciplinas, incluyendo diseño gráfico, desarrollo web y fotografía profesional. Cada proyecto es una oportunidad para combinar creatividad y técnica, transformando ideas en realidades visuales que resuenan y capturan la esencia de cada marca. Mi objetivo es siempre superar las expectativas, ofreciendo una perspectiva personalizada y resultados de alta calidad que impulsan la presencia y el éxito de mis clientes en el mercado digital y visual.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="assets/imagenpersonal.jpg" alt="nombre" class="img-fluid">
+        </div>
+    </div>
+</section>
+
+<section id="portafolio" class="container mt-5">
+    <h2 class="text-center">Portafolio</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4 mt-3">
+            <a href="https://www.behance.net/gallery/155129971/ENTREGA-FINAL-BRANDING" target="_blank">
+                <img src="assets/proyecto1.jpg" alt="Proyecto 1" class="img-fluid">
+            </a>
+        </div>
+        <div class="col-md-4 mt-3">
+            <a href="https://www.behance.net/gallery/180718061/PROYECTO-FINAL-DISENO-UXUI" target="_blank">
+                <img src="assets/proyecto2.jpg" alt="Proyecto 2" class="img-fluid">
+            </a>
+        </div>
+        <div class="col-md-4 mt-3">
+            <a href="https://www.behance.net/gallery/180718221/REPORTE-UX" target="_blank">
+                <img src="assets/proyecto3.jpg" alt="Proyecto 3" class="img-fluid">
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="container mt-5">
+    <h2 class="text-center">Contacto</h2>
+    <form action="#" method="post" class="d-flex flex-column align-items-center">
+        <div class="form-group w-100">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required class="form-control">
+        </div>
+        <div class="form-group w-100">
+            <input type="email" name="email" placeholder="Tu Email" required class="form-control">
+        </div>
+        <div class="form-group w-100">
+            <textarea name="mensaje" placeholder="Tu Mensaje" required class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portafolio">Portafolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Sígueme en:
+        <a href="https://www.instagram.com/ele_a_photography/" target="_blank">Instagram</a> |
+        <a href="https://www.behance.net/lorenaacosta3" target="_blank">Behance</a> |
+        <a href="https://www.linkedin.com/in/lorena-a-mach%C3%ADn/" target="_blank">LinkedIn</a>
+    </p>
+    <p>&copy; 2024 Lorraine M. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="scripts.js"></script>
+</body>
+</html>
+

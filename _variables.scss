@@ -1,0 +1,28 @@
+/* Variables */
+$primary-color: #ff6347;
+$secondary-color: #333333;
+$background-color: #121212;
+$text-color: #ffffff;
+
+// mixin
+@mixin fondo_primario {
+    background-color: $primary-color;
+    color: $text-color;    
+}
+@mixin fondo_secundario {
+    background-color: $secondary-color;
+    color: $text-color;    
+}
+@mixin boton {
+    @include fondo_primario;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "sass": "sass src/estilo.scss:src/estilo.css src/estiloservicios.scss:src/estiloservicios.css"  
+  },
+  "devDependencies": {
+    "sass": "^1.77.4"
+  }
+}
